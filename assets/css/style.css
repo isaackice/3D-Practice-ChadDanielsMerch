@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .container {
@@ -21,11 +22,12 @@ body {
 
 .card {
     min-height: 80vh;
-    width: 50%;
+    width: 60%;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     padding: 0rem 5rem;
-
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
 }
 
 .merch {
