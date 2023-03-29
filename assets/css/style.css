@@ -10,5 +10,96 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f1f1f1;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-height: 80vh;
+    width: 50%;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+
+}
+
+.merch {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.merch img{
+    width: 30rem;
+    z-index: 2;
+}
+
+.circle {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background: linear-gradient(111.5deg, rgb(187, 232, 255, 0.75) 11.1%, rgb(4, 78, 116, 0.75) 107.5%);
+    position: absolute;
+    z-index: 1;
+}
+
+.info h1{
+    font-size: 3rem;
+}
+
+.info h3{
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sizes button {
+    padding: 2rem 2rem;
+    border: none;
+    background: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #585858;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.sizes button:hover {
+    background: #585858;
+    color: #ffffff;
+}
+
+.buy {
+    margin-top: 5rem;
+}
+
+.buy button {
+    width: 100%;
+    padding: 2rem 0rem;
+    border: none;
+    background: rgb(4, 78, 116);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.buy button:hover {
+    background: #585858;
 }
