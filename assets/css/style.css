@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -21,13 +21,12 @@ body {
 }
 
 .card {
+    transform-style: preserve-3d;
     min-height: 80vh;
-    width: 60%;
+    width: 55rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     padding: 0rem 5rem;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
 }
 
 .merch {
